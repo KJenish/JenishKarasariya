@@ -1,24 +1,83 @@
 /* Home.css */
 
 .home-container {
-    background: url('./home_image_2.jpg') center center fixed;
-    background-size:cover;
-    height: 100vh; 
-    /* display: flex; */
-    /* flex-direction: column; */
+  background: url('./home.jpg') center center fixed;
+  background-size: cover;
+  height: 95vh;
+  width: 100vw;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+  color: #000;
+}
 
-  }
-  
-  .home-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    margin-top: 10px;
-  }
-  
-  .home-content {
-    text-align: center;
-    color: red; /* Adjust text color based on your background */
-  }
-  
+
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.home-content {
+  text-align: center;
+  color: red;
+  /* Adjust text color based on your background */
+}
+
+.name-hover-effect {
+  cursor: pointer; /* Keep the cursor as pointer to indicate it's clickable */
+  color: white;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.name-hover-effect:hover {
+  color: wheat; /* Change the color to red on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.nav-link {
+  cursor: pointer;
+}
+/* 
+.div_container {
+  margin-top: '70px';
+  display: 'flex';
+  height: 'calc(100% - 70px)';
+  align-items: 'center';
+  justify-content: 'center';
+  margin-bottom:'100px';
+} */
+
+#head_col{
+  color: white;
+}
+.content-below-navbar {
+  padding-top: 80px; /* Adjust based on your Navbar's height */
+}
+
+.chevron-down {
+  /* Distance from bottom */
+  color: white;
+  text-align: center;
+  margin-top: 50%;;
+}
+
+.icon-chevron-down {
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.icon-chevron-down:hover {
+  transform: scale(1.5); /* Increase the size of the icon by 50% on hover */
+}
+
+.active-nav-link {
+  text-decoration: underline;
+  text-decoration-color: #FFF
+}

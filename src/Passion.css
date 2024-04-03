@@ -1,0 +1,56 @@
+.passion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px;
+    background: #282a36; /* A neutral dark background */
+    color: #ffffff;
+  }
+  
+  .passion-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 48px;
+  }
+  
+  .passion-areas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .passion-area {
+    background: #333c57; /* A slightly different background for each card */
+    border: 1px solid #444f6c; /* Subtle border */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 280px; /* Fixed width for consistency */
+  }
+  
+  .passion-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #647cff; /* An accent color for icons */
+  }
+  
+  .passion-area h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .passion-area p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .passion-area:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.3);
+  }
+  

@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.transparent-navbar, .transparent-navbar .navbar-brand, .transparent-navbar .nav-link {
+  color: #FFF !important; /* Bright white color */
+  text-transform: uppercase; /* Transform text to uppercase */
+}
+
+.active-nav-link {
+  border-bottom: 3px solid #64ffda; /* Example active link underline color */
+}
+.navbar-brand {
+  cursor: pointer; /* This will change the cursor to a pointer */
+}
