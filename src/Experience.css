@@ -1,0 +1,228 @@
+.experience-container {
+  max-width: 1200px;
+  margin: 50px auto; /* Increased top margin to account for the fixed navbar */
+  padding: 50px;
+  text-align: center;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Slightly larger shadow for more depth */
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+}
+
+.experience-container:hover {
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2); /* Larger shadow on hover for a "lifting" effect */
+}
+
+  
+  .experience-title {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .experience-description {
+    font-size: 1em;
+    margin-bottom: 2em;
+    color: #666;
+    line-height: 1.4; /* Improve readability */
+  }
+  
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    grid-gap: 20px;
+    align-items: start; /* Changed from center to start to keep top alignment */
+    justify-items: center;
+  }
+  
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em; /* Add space below each skill */
+  }
+  
+  
+  .skill-item h4 {
+    margin-top: 0.5em;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 768px) {
+    .skills-grid {
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+  
+    .experience-container {
+      padding: 30px;
+      margin-top: 100px; /* Reduce top margin for mobile views */
+    }
+  
+    .experience-title {
+      font-size: 2em; /* Slightly smaller font size for smaller screens */
+    }
+  
+    .experience-description {
+      font-size: 0.9em; /* Slightly smaller font size for descriptions on smaller screens */
+    }
+  }
+  
+  /* Modern and clean styles for the timeline */
+.experience-section1 {
+  background-color: #141518;
+  padding: 50px 0;
+}
+
+.experience-container1 {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0; /* Removed padding to align timeline with the central line */
+  text-align: center;
+  background: none;
+  box-shadow: none;
+}
+
+.experience-title1 {
+  font-size: 2.5em;
+  color: #ffffff; /* Adjust color to match your theme */
+  margin-bottom: 0.5em;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  margin-top: 20px; /* Spacing from the skills grid */
+}
+
+.timeline-item {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  width: calc(50% - 20px); /* Adjust width to leave space for central line */
+  position: relative;
+}
+
+.timeline-icon {
+  font-size: 24px;
+  /* color: #5cb85c; */
+}
+
+
+.timeline-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px; /* Rounded corners for the content boxes */
+  border-left: 3px solid #5cb85c; /* Colored border for a modern touch */
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for the content boxes */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+.timeline-content h3 {
+  font-size: 1.25em; /* Large font size for headings */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+
+.timeline-content p {
+  font-size: 1em; /* Readable font size for institution name */
+  margin: 0;
+  color: #555; /* Dark grey color for text */
+}
+
+.timeline-content time {
+  font-style: italic;
+  color: #aaa; /* Light color for dates */
+}
+
+.timeline-content:hover {
+  transform: translateY(-5px); /* Slight raise effect on hover */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow for hover effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .experience-container {
+    padding: 30px;
+  }
+  .timeline-item {
+    flex-direction: column;
+  }
+  .timeline-icon {
+    margin-bottom: 15px;
+  }
+}
+.timeline-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #d1d1d1; /* Line color */
+  z-index: 1;
+}
+.timeline-item .timeline-icon-container {
+  width: 30px; /* Adjust the size of the icon container */
+  flex-shrink: 0; /* Prevents the icon from shrinking */
+}
+.timeline-item.left {
+  justify-content: flex-end;
+  padding-right: 30px; /* Space for content from the central line */
+}
+.timeline-item.right {
+  justify-content: flex-start;
+  left: 50%; /* Move to the right side */
+  margin-left: 30px; /* Space from the central line */
+}
+.timeline-item.left .timeline-content {
+  margin-left: 0;
+  margin-right: 20px; /* Space for the left items */
+}
+.timeline-item.right .timeline-content {
+  border-left: none;
+  border-right: 4px solid #5cb85c; /* Right border for right-side items */
+  margin-left: 40px;
+}
+
+.timeline-icon-container {
+  width: 30px; /* Icon container width */
+  flex-shrink: 0;
+}
+@media (max-width: 768px) {
+  .timeline-item .timeline-icon-container {
+    position: static;
+    transform: none;
+    margin-bottom: 10px;
+  }
+
+  .timeline-item .timeline-content {
+    padding-left: 20px; /* Reset padding for mobile */
+    padding-right: 20px; /* Reset padding for mobile */
+  }
+}
+timeline-item .timeline-content {
+  padding: 20px;
+  padding-left: 40px; /* Add padding on left for left items */
+  padding-right: 40px; /* Add padding on right for right items */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.timeline-item.left .timeline-icon-container {
+  right: -10px; /* Adjust as needed */
+}
+
+/* Position the icon on the left for right items */
+.timeline-item.right .timeline-icon-container {
+  left: -10px; /* Adjust as needed */
+}
+.timeline-item .timeline-icon-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

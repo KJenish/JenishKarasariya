@@ -18,7 +18,7 @@ code {
 }
 
 .active-nav-link {
-  border-bottom: 3px solid #64ffda; /* Example active link underline color */
+  border-bottom: 3px solid #64ffda !important;; /* Example active link underline color */
 }
 .navbar-brand {
   cursor: pointer; /* This will change the cursor to a pointer */

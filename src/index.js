@@ -75,9 +75,10 @@ function ColorSchemesExample() {
             {/* <Nav.Link as={Link} to="/about">About</Nav.Link> */}
             <Link to="about-section" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" activeClass="active-nav-link" >About</Link>
             <Link to="passion-section" spy={true} smooth={true} offset={-50} duration={500} className="nav-link" activeClass="active-nav-link">Passion</Link>
-            <Nav.Link as={Link} to="/experience">Experience</Nav.Link>
-            <Nav.Link as={Link} to="/work">Work</Nav.Link>
-            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+            <Link to="experience-section" spy={true} smooth={true} offset={-40} duration={500} className="nav-link" activeClass="active-nav-link">Experience</Link>
+            <Link to="work-section" spy={true} smooth={true} offset={-50} duration={500} className="nav-link" activeClass="active-nav-link">Work</Link>
+            <Link to="contact-section" spy={true} smooth={true} offset={-50} duration={500} className="nav-link" activeClass="active-nav-link">Contact</Link>
+
           </Nav>
         </Container>
       </Navbar>
