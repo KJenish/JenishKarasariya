@@ -17,6 +17,8 @@ import './Home.css';
 import './index.css';
 import { useState, useEffect } from 'react';
 
+
+
 const App = () => {
   return (
     <Router>
@@ -76,8 +78,8 @@ function ColorSchemesExample() {
             <Link to="about-section" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" activeClass="active-nav-link" >About</Link>
             <Link to="passion-section" spy={true} smooth={true} offset={-50} duration={500} className="nav-link" activeClass="active-nav-link">Passion</Link>
             <Link to="experience-section" spy={true} smooth={true} offset={-40} duration={500} className="nav-link" activeClass="active-nav-link">Experience</Link>
-            <Link to="work-section" spy={true} smooth={true} offset={-50} duration={500} className="nav-link" activeClass="active-nav-link">Work</Link>
-            <Link to="contact-section" spy={true} smooth={true} offset={-50} duration={500} className="nav-link" activeClass="active-nav-link">Contact</Link>
+            <Link to="work-section" spy={true} smooth={true} offset={-40} duration={500} className="nav-link" activeClass="active-nav-link">Work</Link>
+            <Link to="contact-section" spy={true} smooth={true} offset={-40} duration={500} className="nav-link" activeClass="active-nav-link">Contact</Link>
 
           </Nav>
         </Container>

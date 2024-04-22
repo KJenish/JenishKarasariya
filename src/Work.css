@@ -1,0 +1,84 @@
+.projectContainer {
+    padding: 4rem 2rem; /* More padding on the top and bottom */
+    background-color: #f9f9fb; /* Slightly lighter background for contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 3rem; /* Larger for more impact */
+    font-weight: bold; /* Bold font weight for the heading */
+    color: #333;
+    margin-bottom: 3rem; /* More space below the heading */
+    text-align: center;
+}
+
+.projectGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem; /* Use gap for spacing between cards */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projectCard {
+    background-color: #fff;
+    border: none;
+    border-radius: 15px; /* More pronounced rounded corners for modern feel */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* More pronounced shadow for depth */
+    width: calc(50% - 2rem); /* Explicit width for the cards */
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center card content */
+}
+
+.cardBody {
+    padding: '0px';
+}
+
+.cardTitle {
+    font-size: 1.75rem;
+    font-weight: 600; /* Slightly bolder font weight */
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center; /* Center title text */
+}
+
+.cardText {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem; /* Space above the button */
+    text-align: justify; /* Justify text for a neat paragraph layout */
+}
+
+.cardButton {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 25px; /* Fully rounded edges for the button */
+    padding: 10px 30px; /* Larger padding for a more clickable area */
+    font-size: 1rem; /* Match the font size with card text */
+    font-weight: 500; /* Medium font weight for the button text */
+    letter-spacing: 0.5px; /* Slightly space out letters */
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    display: inline-block; /* To enable transform effects */
+    margin-top: auto; /* Push the button to the bottom */
+}
+
+.cardButton:hover {
+    background-color: #003f88;
+    transform: translateY(-3px); /* Lift button on hover for effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+@media (max-width: 991px) {
+    .projectCard {
+        width: 100%; /* Full width for mobile */
+        margin: 1rem 0;
+    }
+}

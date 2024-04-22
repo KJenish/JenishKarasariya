@@ -12,8 +12,10 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 import Passion from "./Passion";
 import Experience from "./Experience";
+import Work from "./Work";
+import Contact from "./Contact";
 const phrases = [
-  "Jenish Karsariya",
+  "Jenish Karasariya",
   "Software Engineer",
   "Full Stack Developer",
 ];
@@ -107,9 +109,16 @@ const Home = () => {
       <div id="passion-section">
         <Passion />
       </div>
-      <div id="experience-section" style={{ minHeight: "100vh" }}>
+      <div id="experience-section">
         <Experience />
       </div>
+      <div id="work-section">
+         <Work />
+      </div>
+      <div id="contact-section">
+         <Contact />
+      </div>
+     
     </>
   );
 };
