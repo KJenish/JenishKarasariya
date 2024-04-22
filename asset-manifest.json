@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/JenishKarasariya/static/css/main.d59d4b51.css",
+    "main.js": "/JenishKarasariya/static/js/main.b629f898.js",
+    "static/media/home.jpg": "/JenishKarasariya/static/media/home.44b3fb445039f3f259ea.jpg",
+    "static/media/jenish_karasariya.jpg": "/JenishKarasariya/static/media/jenish_karasariya.de76c19ec064f4f538a4.jpg",
+    "index.html": "/JenishKarasariya/index.html",
+    "main.d59d4b51.css.map": "/JenishKarasariya/static/css/main.d59d4b51.css.map",
+    "main.b629f898.js.map": "/JenishKarasariya/static/js/main.b629f898.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d59d4b51.css",
+    "static/js/main.b629f898.js"
+  ]
+}
