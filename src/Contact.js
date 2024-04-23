@@ -19,7 +19,7 @@ const Contact = () => {
         <p>Whether you have an idea for a project or just want to chat, feel free to shoot me an email!</p>
         <button className="emailButton" onClick={handleEmailClick}>Say Hello</button>
         <div className="socialIcons">
-        <a href="https://www.facebook.com/profile.php?id=100008013947943&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100008013947943&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f" ></i></a>
         <a href="https://www.instagram.com/j_karsariya/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
         <a href="https://github.com/KJenish" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/jenish-karsariya/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
