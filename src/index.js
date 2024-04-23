@@ -75,6 +75,7 @@ function ColorSchemesExample() {
               width="30"
               height="30"
               className="d-inline-block align-top"
+              style={{marginRight:"10px"}}
               // alt="Jenish Karasariya logo"
             />
               Jenish Karasariya
