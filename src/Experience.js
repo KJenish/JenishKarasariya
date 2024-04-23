@@ -93,7 +93,7 @@ function Experience() {
   ];
   return (
     <div id="experience-section">
-      <div style={{ height: "90vh", paddingTop: "50px", marginBottom: "50px" }}>
+      <div style={{paddingTop: "50px", marginBottom: "50px" }}>
         <div className="experience-container">
           <h2 className="experience-title">Experience</h2>
           <p className="experience-description">
