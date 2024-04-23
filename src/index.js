@@ -70,6 +70,13 @@ function ColorSchemesExample() {
         {/* <Navbar bg="light" variant="light" style={navbarStyle}> */}
         <Container>
           <Navbar.Brand><Link to="home-section" spy={true} smooth={true} offset={-70} duration={500} className="navbar-brand">
+            <img
+              src="./JK.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+              // alt="Jenish Karasariya logo"
+            />
               Jenish Karasariya
             </Link></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" style={{'background-color': 'white',
