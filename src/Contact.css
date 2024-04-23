@@ -50,13 +50,14 @@
   }
   
   .socialIcons a {
-    color: #64ffda; /* Accent color */
-    margin: 0 1rem;
-    font-size: 1.5rem; /* Larger size for icons */
-    transition: color 0.2s ease-in-out;
+    color: #64ffda; /* Retain the accent color */
+    margin: 0 20px; /* Increase the margin for better spacing */
+    font-size: 2.5rem; /* Upscale size for icons */
+    transition: transform 0.2s ease-in-out; /* Smooth transformation */
   }
   
   .socialIcons a:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
     color: #52deab; /* Slightly darker for hover state */
   }
   
@@ -143,7 +144,7 @@
 
 .hoverMessage {
   position: absolute;
-  top: 60px; /* Adjust the positioning of the message */
+  top: 50px; /* Adjust the positioning of the message */
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.7);
