@@ -66,22 +66,27 @@ function ColorSchemesExample() {
     <>
    
     
-      <Navbar className="transparent-navbar" style={navbarStyle }>
+      <Navbar expand="lg" className="transparent-navbar" style={navbarStyle } >
         {/* <Navbar bg="light" variant="light" style={navbarStyle}> */}
         <Container>
           <Navbar.Brand><Link to="home-section" spy={true} smooth={true} offset={-70} duration={500} className="navbar-brand">
               Jenish Karasariya
             </Link></Navbar.Brand>
-          <Nav className="ms-auto">
-            {/* <Nav.Link as={Link} to="/">Home</Nav.Link> */}
-            {/* <Nav.Link as={Link} to="/about">About</Nav.Link> */}
-            <Link to="about-section" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" activeClass="active-nav-link" >About</Link>
-            <Link to="passion-section" spy={true} smooth={true} offset={-50} duration={500} className="nav-link" activeClass="active-nav-link">Passion</Link>
-            <Link to="experience-section" spy={true} smooth={true} offset={-40} duration={500} className="nav-link" activeClass="active-nav-link">Experience</Link>
-            <Link to="work-section" spy={true} smooth={true} offset={-40} duration={500} className="nav-link" activeClass="active-nav-link">Work</Link>
-            <Link to="contact-section" spy={true} smooth={true} offset={-40} duration={500} className="nav-link" activeClass="active-nav-link">Contact</Link>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" style={{'background-color': 'white',
+    'border-radius': '5px'
+}}/>
+              <Navbar.Collapse id="basic-navbar-nav" >
+              <Nav className="ms-auto">
+                {/* <Nav.Link as={Link} to="/">Home</Nav.Link> */}
+                {/* <Nav.Link as={Link} to="/about">About</Nav.Link> */}
+                <Link to="about-section" spy={true} smooth={true} offset={-70} duration={500} className="nav-link" activeClass="active-nav-link" >About</Link>
+                <Link to="passion-section" spy={true} smooth={true} offset={-50} duration={500} className="nav-link" activeClass="active-nav-link">Passion</Link>
+                <Link to="experience-section" spy={true} smooth={true} offset={-40} duration={500} className="nav-link" activeClass="active-nav-link">Experience</Link>
+                <Link to="work-section" spy={true} smooth={true} offset={-40} duration={500} className="nav-link" activeClass="active-nav-link">Work</Link>
+                <Link to="contact-section" spy={true} smooth={true} offset={-40} duration={500} className="nav-link" activeClass="active-nav-link">Contact</Link>
 
-          </Nav>
+              </Nav>
+              </Navbar.Collapse>
         </Container>
       </Navbar>
     </>
