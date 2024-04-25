@@ -67,27 +67,33 @@ function Experience() {
     },
     {
       title: "Software Engineer",
+      institution: "TRIUM AI SOLUTIONS INC, New York, USA",
+      date: "May 2023 - Aug 2023",
+      side: "left",
+    },
+    {
+      title: "Software Engineer",
       institution: "Rentech Digital, New York, USA",
       date: "Jan 2022 - Jun 2022",
-      side: "left",
+      side: "right",
     },
     {
       title: "Software Developer",
       institution: "CHARUSAT University, Gujarat, India",
       date: "Apr 2021 - Jun 2021",
-      side: "right",
+      side: "left",
     },
     {
       title: "App Development Intern",
       institution: "Zibma Infotech, Gujarat, India",
       date: "Jun 2020 - Aug 2020",
-      side: "left",
+      side: "right",
     },
     {
       title: "Senior Lead AV/IT operations worker",
       institution: "USC Information Technology Services (ITS)",
       date: "Sep 2023 - Present",
-      side: "right",
+      side: "left",
     },
     // Add additional items here
   ];
