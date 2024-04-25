@@ -17,7 +17,7 @@ const About = () => {
       </div>
       <div className="resume-download-card">
         <h3>CHECK OUT MY RESUME!</h3>
-        <a href="https://drive.google.com/file/d/1yG1KfLqxLPRfL3efhkkM0lfZEWrt1z3k/view" target="_blank" rel="noopener noreferrer" download="Jenish_Karasariya_Resume" className="resume-download-button">
+        <a href="https://drive.google.com/file/d/1VMXZ31j3UfftOzBwGUPr2mXQr0R05YFn/view" target="_blank" rel="noopener noreferrer" download="Jenish_Karasariya_Resume" className="resume-download-button">
           Grab A Copy
         </a>
       </div>
