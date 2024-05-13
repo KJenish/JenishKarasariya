@@ -74,26 +74,32 @@ function Experience() {
     {
       title: "Software Engineer",
       institution: "Rentech Digital, New York, USA",
-      date: "Jan 2022 - Jun 2022",
+      date: "Jan 2022 - Aug 2022",
       side: "right",
     },
     {
       title: "Software Developer",
       institution: "CHARUSAT University, Gujarat, India",
-      date: "Apr 2021 - Jun 2021",
+      date: "Jun 2021 - Aug 2021",
       side: "left",
+    },
+    {
+      title: "Software Developer",
+      institution: "CHARUSAT University, Gujarat, India",
+      date: "Apr 2021 - Jun 2021",
+      side: "right",
     },
     {
       title: "App Development Intern",
       institution: "Zibma Infotech, Gujarat, India",
       date: "Jun 2020 - Aug 2020",
-      side: "right",
+      side: "left",
     },
     {
       title: "Senior Lead AV/IT operations worker",
       institution: "USC Information Technology Services (ITS)",
-      date: "Sep 2023 - Present",
-      side: "left",
+      date: "Sep 2023 - May 2024",
+      side: "right",
     },
     // Add additional items here
   ];
@@ -101,7 +107,7 @@ function Experience() {
     <div id="experience-section">
       <div style={{paddingTop: "50px", marginBottom: "50px" }}>
         <div className="experience-container">
-          <h2 className="experience-title">Experience</h2>
+          <h2 className="experience-title">Skills</h2>
           <p className="experience-description">
             I've been crafting web solutions for several years, and I continue
             to hone my skills and keep up with industry trends.

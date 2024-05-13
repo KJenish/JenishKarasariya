@@ -49,7 +49,7 @@ const Work = () => {
           }}
           >
             <Card.Body style={{padding:'0px'}}>
-              <Card.Header>{project.name}</Card.Header>
+              <Card.Header style={{backgroundColor: 'black', color: 'white' }}>{project.name}</Card.Header>
               <Card.Text style={{marginTop:'20px', padding:'10px'}}>
                 {project.description}
               </Card.Text>

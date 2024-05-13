@@ -82,3 +82,8 @@
         margin: 1rem 0;
     }
 }
+
+.cardHeader {
+background-color: black;
+color: white;
+}
