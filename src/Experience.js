@@ -74,19 +74,7 @@ function Experience() {
     {
       title: "Software Engineer",
       institution: "Rentech Digital, New York, USA",
-      date: "Jan 2022 - Aug 2022",
-      side: "right",
-    },
-    {
-      title: "Software Developer",
-      institution: "CHARUSAT University, Gujarat, India",
-      date: "Jun 2021 - Aug 2021",
-      side: "left",
-    },
-    {
-      title: "Software Developer",
-      institution: "CHARUSAT University, Gujarat, India",
-      date: "Apr 2021 - Jun 2021",
+      date: "Aug 2020 - Aug 2022",
       side: "right",
     },
     {
